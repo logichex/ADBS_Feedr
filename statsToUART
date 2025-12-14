@@ -3,7 +3,7 @@ import json, time, serial
 
 # Path to stats file (adjust to your setup)
 STATS_FILE = "/run/readsb/stats.json"
-SERIAL_PORT = "/dev/ttyS1"  # check your UART device (use `dmesg | grep tty`)
+SERIAL_PORT = "/dev/ttyAML0"  # check your UART device (use `dmesg | grep tty`)
 BAUDRATE = 9600
 
 def get_stats():
